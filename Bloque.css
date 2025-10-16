@@ -1,0 +1,44 @@
+p{
+    background-color: red;
+    width:33.3%;
+    display:inline-block;
+    font:16px;
+    color: green;
+}
+div{
+    border:1px solid black;
+    width:100%;
+    font-size:0;
+    color: white;
+}
+li{
+    background-color: red;
+    width:33.1%;
+    display:inline-block;
+    font-size:16px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+ol{
+    font-size:0;
+    padding: 0;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width:70%;
+    font-size:0;
+    margin-top: 10px;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+body{
+    width: 70%;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 30px;
+}
