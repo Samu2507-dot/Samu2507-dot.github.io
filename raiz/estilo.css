@@ -8,6 +8,12 @@ nav{
     border:2px solid black;
     border-radius:5px;
 }
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -27,16 +33,15 @@ li{
     color: white;
 }
 li:hover{
-    color: white;
-    background-color: blue;
-}
-h1:hover{
     color: black;
-    background-color: aqua;
+    background-color: lightgreen;
 }
 header, footer{
     box-sizing: border-box;
     margin: 10px;
     padding: 10px;
-    border: 5px solid green;
+}
+p:nth-child(2){
+    color: red;
+    font-weight: bold;
 }
