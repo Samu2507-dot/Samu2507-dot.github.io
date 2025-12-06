@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header, footer{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+body>ol>li{
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    width: 80%;
+    height: 333px;
+    border: 1px solid black;
+    border-right: 0px;
+    margin: 25px;
+    background-color: white;
+}
+img{
+    padding: 2%;
+    text-align: start;
+}
