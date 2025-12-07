@@ -1,26 +1,84 @@
-body{
+body {
     background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 40px;
     color: darkblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-header, main, footer{
-    background-color: lightpink;
+
+header {
+    background-color: lightgreen;
 }
-main{
-    margin: 10px;
-    padding: 10px;
+
+main {
+    background-color: lightgoldenrodyellow;
+    max-width: 1000px;
+    margin-left: 15%;
+    padding: 20px;
 }
-header, footer{
+
+header, footer {
     box-sizing: border-box;
     margin: 10px;
     padding: 10px;
 }
-footer a{
+
+footer {
+    background-color: lightpink;
+    text-align: center;
+}
+
+footer a {
     color: darkblue;
     padding: 5px;
     font-weight: bold;
+}
+
+section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+article {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+main button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+main p {
+    margin: 5px 0;
 }
