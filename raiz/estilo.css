@@ -1,91 +1,51 @@
-body {
-    background-color: lightblue;
-    font-family: Arial, sans-serif;
-    margin: 0;
+body{
+   background-color: white;
+   margin-right: auto;
 }
-
-h1 {
+nav{
+    background-color:lightgrey;
+    margin:10px;
+    padding:10px;
+    border:2px solid black;
+    border-radius:5px;
+}
+h1{
     text-align: center;
     font-size: 40px;
     color: darkblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-header {
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ol{
+    background-position: 0%;
+    background-size: cover;
+    font-size:0;
+    padding: 0;
+}
+li{
+    background-color: black;
+    display:inline-block;
+    font-size:20px;
+    text-align: center;
+    width: 16.66%;
+    color: white;
+}
+li:hover{
+    color: black;
     background-color: lightgreen;
 }
-
-main {
-    background-color: lightgoldenrodyellow;
-    max-width: 1000px;
-    margin-left: 15%;
-    padding: 20px;
-}
-
-header, footer {
+header, footer{
     box-sizing: border-box;
     margin: 10px;
     padding: 10px;
 }
-
-footer {
-    background-color: lightpink;
-    text-align: center;
-}
-
-footer a {
-    color: darkblue;
-    padding: 5px;
-    font-weight: bold;
-}
-
-section {
-    margin-bottom: 30px;
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-}
-
-h2 {
-    margin-top: 0;
-}
-
-article {
-    border: 1px solid #ddd;
-    border-radius: 10px;
+aside{
+    box-sizing: border-box;
+    margin: 10px;
     padding: 10px;
-    margin-bottom: 10px;
-    background: #fafafa;
-}
-
-img {
-    width: 100%;
-    max-width: 250px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-main button {
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 8px 15px;
+    border: 2px solid black;
     border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-main p {
-    margin: 5px 0;
-}
-
-aside {
-    background-color: #f0f0f0;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 10px;
 }
