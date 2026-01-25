@@ -23,8 +23,11 @@ nav>ol>li{
     display: inline-block;
     font-size: 20px;
     text-align: center;
-    width: 16.66%;
+    width: 20%;
     color: white;
+}
+li a{
+    display: block;
 }
 nav>ol>li:hover{
     color: black;
