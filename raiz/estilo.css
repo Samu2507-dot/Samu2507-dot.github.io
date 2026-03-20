@@ -65,7 +65,7 @@ footer a {
     color: #3498db;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 500px) {
     h2{
         padding: 20px;
         text-align: center;
@@ -73,6 +73,18 @@ footer a {
     article {
         padding: 50px;
         margin-left: 15%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    h2{
+        padding: 20px;
+        text-align: center;
+    }
+    article {
+        padding: 50px;
+        margin-left: 20%;
         margin-bottom: 10%;
     }
 }

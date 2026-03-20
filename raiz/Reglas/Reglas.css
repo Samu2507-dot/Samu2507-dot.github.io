@@ -1,15 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
     background-color: #f4f4f4;
 }
 h1, h2 {
     color: #333;
 }
-a {
+main p{
+    position: static;
+    left: 1.7%;
+}
+main a {
     color: #0066cc;
     text-decoration: none;
+}
+main>p>a:nth-last-child(1){
+    font-weight: bold;
 }
 section {
     background: #fff;
