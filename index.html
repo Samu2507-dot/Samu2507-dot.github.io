@@ -39,60 +39,64 @@
 	<script type="application/ld+json">
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Product",
     "name": "Escopeta cyma",
     "image": "https://samu2507-dot.github.io/raiz/ImagenesIndex/escopeta-cyma-shotgun-351-full-metal-black.jpg",
     "offers": {
       "@type": "Offer",
-      "price": "Precio: 99,99 €"
+      "price": 99.99,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
     }
   },
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Product",
     "name": "Fusil CX",
     "image": "https://samu2507-dot.github.io/raiz/ImagenesIndex/fusil-de-muelle-cx4-vigor.jpg",
     "offers": {
       "@type": "Offer",
-      "price": "Precio: 129,00 €"
+      "price": 129.00,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
     }
   },
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Product",
     "name": "Pistola macaron",
     "image": "https://samu2507-dot.github.io/raiz/ImagenesIndex/gg-far-9-macaron.jpg",
     "offers": {
       "@type": "Offer",
-      "price": "Precio: 50,00 €"
+      "price": 50.00,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
     }
   },
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Product",
     "name": "Llavero espada",
     "image": "https://samu2507-dot.github.io/raiz/ImagenesIndex/llavero-espada-1218-zld-9-cm-azulnegro.jpg",
     "offers": {
       "@type": "Offer",
-      "price": "Precio: 19,99 €"
+      "price": 19.99,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
     }
   },
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Product",
     "name": "Pistola cthulhu",
     "image": "https://samu2507-dot.github.io/raiz/ImagenesIndex/pistola-airsoft-gbb-cthulhu-lancer-tactical-negrarainbow.jpg",
-    "offers": [
-      {
-        "@type": "Offer",
-        "price": "Antes: 70 €"
-      },
-      {
-        "@type": "Offer",
-        "price": "Ahora: 50 €"
-      }
-    ]
+    "offers": {
+      "@type": "Offer",
+      "price": 50.00,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
   }
 ]
 </script>
@@ -106,30 +110,20 @@
 		</div>
 	</button>
 	<header>
-		<h1 style="font-family: 'BBH Bartle', sans-serif;"><a href="index.html">Ironce</a></h1>
-		<nav>
-			<ol>
-				<li>
-					<a href="raiz/Armas/Armas.html">Armas</a>
-				</li>
-				<li>
-					<a href="raiz/Equipamiento/Equipamiento.html">Equipamiento</a>
-				</li>
-				<li>
-					<a href="raiz/Municion/Municion.html">Municion</a>
-				</li>
-				<li>
-					<a href="raiz/Accesorios/Accesorios.html">Accesorios</a>
-				</li>
-				<li>
-					<a href="raiz/Extras/Extras.html">Extras</a>
-				</li>
-				<li>
-					<a href="raiz/Reglas/Reglas.html">Reglas</a>
-				</li>
-			</ol>
-		</nav>
-	</header>
+    <h1 style="font-family: 'BBH Bartle', sans-serif;"><a href="index.html">Ironce</a></h1>
+    <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-check">
+        <label for="menu-toggle" class="menu-button">Menú</label>
+        <ol>
+            <li><a href="raiz/Armas/Armas.html">Armas</a></li>
+            <li><a href="raiz/Equipamiento/Equipamiento.html">Equipamiento</a></li>
+            <li><a href="raiz/Municion/Municion.html">Municion</a></li>
+            <li><a href="raiz/Accesorios/Accesorios.html">Accesorios</a></li>
+            <li><a href="raiz/Extras/Extras.html">Extras</a></li>
+            <li><a href="raiz/Reglas/Reglas.html">Reglas</a></li>
+        </ol>
+    </nav>
+</header>
 	<main>
 		<section>
 			<h2>Productos Destacados</h2>
